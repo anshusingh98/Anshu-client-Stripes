@@ -1,0 +1,5 @@
+export const Constant = {
+    SET_QUANTITY:"SET_QUANTITY",
+    QUANTITY_INC:"QUANTITY_INC",
+    QUANTITY_DEC:"QUANTITY_DEC"
+}
