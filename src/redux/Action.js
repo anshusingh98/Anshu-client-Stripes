@@ -13,4 +13,7 @@ export const decreaseCount = () => {
   return{
     type:Constant.QUANTITY_DEC
   }
+   
 }
+
+

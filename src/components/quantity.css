@@ -1,0 +1,66 @@
+.price
+{
+    font-weight: 500;
+    margin-left: 1px;
+}
+.arrow-drop-up
+{
+    display: grid;
+    margin-bottom: 50px;
+}
+.counter
+{
+    display: flex;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 25%;
+width: 15%;
+
+/* Color - 1 */
+
+background: #F5F7FF;
+border-radius: 6px;
+}
+.quantity
+{
+    display: flex;
+}
+.about-container
+{
+    display: flex;
+}
+.options-container
+{
+    display: flex;
+    margin-left: 50%;
+}
+@media screen and (max-width: 995px) {
+    .price
+{
+    font-weight: 500;
+    margin-left: 1px;
+}
+.arrow-drop-up
+{
+    display: none;
+}
+.counter
+{
+    display: none;
+}
+.quantity
+{
+    display: none;
+}
+.about-container
+{
+    display: none;
+}
+.options-container
+{
+    display: none;
+    margin-left: 50%;
+}
+   }

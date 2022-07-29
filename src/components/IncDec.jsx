@@ -7,7 +7,7 @@ const IncDec = () => {
     const dispatch = useDispatch();
     const quantity = useSelector((state) => state.quantity);
   return (
-    <div className="arrow-drop-up">
+    <div className="arrow-drop-up" >
     <span
       className="material-icons blue-color"
       style={{ fontSize: "12px" }}

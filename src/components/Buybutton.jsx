@@ -1,10 +1,10 @@
 import React from 'react'
 import { loadStripe } from "@stripe/stripe-js";
 import axios from "axios";
-import { useSelector } from 'react-redux';
 import Product from './Product';
 const Buybutton = ({ProductDetails}) => {
     
+
     const stripePromise = loadStripe("pk_test_51LQBWPSC6p91jwLUNC6B5r4KvTWCqeylON5XdtIQls9Hzy3RSTRAIvUfNRZcBiwRAXHzRxcqpXAeu1unbTmjl2zo00oSiSkj0X")
  const handleCheckout =  async () =>{
    const stripe = await stripePromise
@@ -15,7 +15,8 @@ const Buybutton = ({ProductDetails}) => {
      if(result.error)
      {
        console.log(result.error)
-     }
+          }
+     
    } catch (error) {
     console.log(error)
 

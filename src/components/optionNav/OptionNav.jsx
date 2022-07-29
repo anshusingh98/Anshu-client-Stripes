@@ -4,11 +4,13 @@ import logo from "../../assets/logo.png";
 const OptionNav = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light bg-light "
-      style={{ marginTop: "40px" }}
+      className="navbar navbar-expand-lg navbar-light bg-light " id="optionnav"
+      style={{ marginTop: "40px" , height:"92px",width:"100%",bottom:"87.41%",    right: "0%"
+
+      }}
     >
       <div className="container ">
-      <img  className="logo mx-2" src={logo} alt="logo"></img>
+      <img  className="logo mx-3" src={logo} alt="logo"></img>
       <button
         className="navbar-toggler"
         type="button"
@@ -22,7 +24,7 @@ const OptionNav = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active mx-2">
+          <li className="nav-item mx-2">
             <p>Laptops</p>
           </li>
           <li className="nav-item mx-2">
@@ -35,13 +37,13 @@ const OptionNav = () => {
             <p>Printer&Scanner</p>{" "}
           </li>
           <li className="nav-item mx-2">
-            <p>PC parts</p>{" "}
+            <p>PC parts</p>
           </li>
           <li className="nav-item mx-2">
-            <p>All other parts</p>{" "}
+            <p>All other parts</p>
           </li>
           <li className="nav-item mx-2">
-            <p> Repaire</p>{" "}
+            <p> Repaire</p>
           </li>
         </ul>
       </div>

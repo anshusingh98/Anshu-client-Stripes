@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./about.css"
 const About = () => {
   return (
     <p
@@ -9,6 +9,7 @@ const About = () => {
       marginTop: "2vh",
       textDecorationColor: "#006a89",
       textDecorationThickness: "2px",
+      
     }}
   >
     About Product

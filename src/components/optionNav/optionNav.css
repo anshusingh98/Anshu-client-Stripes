@@ -1,4 +1,27 @@
-.main-navbar
+.logo
 {
-    margin-top: 40px;
+    position: absolute;
+    left: 29.76%;
+    right: 30.86%;
+    top: 20.21%;
+    bottom: 21.74%;
+}
+.nav-item
+{
+    position: absolute;
+left: 19.79%;
+right: 76.82%;
+top: 4.63%;
+bottom: 87.96%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
 }
